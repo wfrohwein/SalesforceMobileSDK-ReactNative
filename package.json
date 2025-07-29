@@ -45,8 +45,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --build",
-    "prepublish": "npm run build"
+    "build": "tsc --build"
   },
   "peerDependencies": {
     "react-native": "0.74.7"
